@@ -15,4 +15,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Kitaplik.DataAccess\Kitaplik.DataAccess.csproj" />
+    <ProjectReference Include="..\Kitaplik.Models\Kitaplik.Models.csproj" />
+    <ProjectReference Include="..\Kitaplik.Utility\Kitaplik.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

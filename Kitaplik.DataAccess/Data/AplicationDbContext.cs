@@ -1,8 +1,8 @@
-﻿using Kitaplik.Controllers;
+﻿
 using Kitaplik.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Kitaplik.Data
+namespace Kitaplik.DataAccess.Data
 {
     public class AplicationDbContext:DbContext
     {
